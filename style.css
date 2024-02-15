@@ -11,16 +11,17 @@
    visibility:hidden;
 }
 #card h2 {
-   font-size:3em;
+   font-size:2em;
    margin:0;
-   color:pink;
+   color:#d62459;
+   padding: 1em 0;
    text-align: center;
 }
 #card p {
-   font-size: 1.5em;
+   font-size: 1em;
    text-align: justify;
-   padding-left: 30px; /* Espacio en blanco a la izquierda */
-   padding-right: 30px; /* Espacio en blanco a la derecha */
+   padding-left: 30px; 
+   padding-right: 30px; 
 }
 
 
@@ -28,7 +29,6 @@
    background:#eee;
    height:550px;
    width:400px;
-/*    border:1px solid red; */
    padding:10px;
 }
 .side.one {
@@ -46,7 +46,7 @@ body {
    align-items: center;
    justify-content: center;
    height: 100vh;
-   font-family: 'Sacramento', cursive;
+   font-family: 'Times New Roman', Times, serif, sans-serif;
    background-color: #f1e3d3;
    overflow: hidden;
  }
